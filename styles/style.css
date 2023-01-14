@@ -1,0 +1,121 @@
+/* ----fonts -----*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common section or utilities */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -------
+header section styles 
+--------*/
+/* navigation section style */
+.header-container{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    margin: 50px 260px 102px 160px;
+}
+.items{
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 63px 160px 116px 260px;
+    color: #424242;
+    gap: 25px;
+}
+/* banner section style */
+.banner-section{
+    display: flex;
+    flex-direction: column;
+}
+.banner-info{
+    text-align: center;
+    margin: 10px 300px 50px 300px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 54px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    border: none;
+    background-color: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    border-radius: 8px;
+}
+.banner-img{
+    width: 75%;
+    border-radius: 8px;
+    margin: 5px 200px 40px 200px;
+}
+
+/*---------
+main section styles
+---------*/
+.main-container{
+    background: #FFFFFF;
+}
+/* features section styles */
+.feature-section{
+    display: flex;
+    margin: 80px 200px 110px 220px;
+    gap: 75px;
+}
+.features-images{
+    width: 50%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.feature-img{
+    width: 100%;
+    height: 260px;
+    object-fit: calc(100%);
+    border-radius: 8px;
+}
+.feature-info{
+    width: 50%;
+    margin-top: 100px;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 40px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.title{
+    color: #727272;
+}
+span{
+    color: #FF900E;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
