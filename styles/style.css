@@ -243,30 +243,30 @@ span{
     margin-bottom: 10px;
 }
 
-/* advertisement section styles */
-.ads-info{
+/* sponsors section styles */
+.sponsors-info{
     text-align: center;
     margin: 20px 0 50px 0;
 }
-.ads-title{
+.sponsors-title{
     font-weight: 700;
     font-size: 35px;
     color: #131313;
     margin-bottom: 20px;
 }
-.ads-des{
+.sponsors-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
-.ads-images{
+.sponsors-images{
     mix-blend-mode: luminosity;
     display: flex;
     justify-content: center;
     gap: 100px;
     margin: 5px 170px 130px 170px;
 }
-.ads-images img{
+.sponsors-images img{
     width: 130.33px;
     height: 50px;
 }
@@ -344,4 +344,107 @@ img{
     border-radius: 8px;
     padding: 25px 60px;
     background-color: #FFF4E7;
+}
+
+/*----------- 
+responsive for mobile device 
+--------------*/
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .nav-section{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin: 25px auto;
+    }
+    .items{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .banner-info{
+        margin: 40px auto;
+    }
+    .banner-img{
+        margin: 20px auto;
+    }
+    .feature-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .features-images{
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-info{
+        width: 70%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .second-feature-section{
+        flex-direction: column;
+        margin: 50px 0 30px 0;
+        align-items: center;
+        width: 100%;
+    }
+    .second-feature-img{
+        height: 100%;
+        margin-left: 0;
+    }
+    .btn-secondary{
+        margin: 40px 0;
+        padding: 15px 20px;
+    }
+    .achievement-text{
+        margin: 40px 0;
+        text-align: center;
+    }
+    .achievement-info{
+        align-items: center;
+        margin: 5px 0 30px 0;
+        gap: 70px;
+        flex-direction: column;
+    }
+    .sponsors-info{
+        margin: 40px 0;
+    }
+    .sponsors-images{
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+        align-items: center;
+        gap: 60px;
+    }
+    .previous-works{
+        margin: 40px 0;
+    }
+    .previous-work{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 80%;
+        height: 80%;
+    }
+    .img-1{
+        grid-column: 1 / 2;
+    }
+    .img-2{
+        grid-column: 1 / 2;
+    }
+    .img-3{
+        grid-column: 1 / 2;
+        grid-row: 4 / 4;
+    }
+    .img-4{
+        grid-column: 1 / 2;
+        grid-row: 4 / -1;
+    }
+    .img-5{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .footer-section{
+        margin: 30px 0 50px 0;
+    }
 }
